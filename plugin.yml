@@ -1,1 +1,17 @@
 
+name: HighAndLow
+main: HighAndLow\HighAndLow
+version: 1.0
+api: [1.10.0]
+load: POSTWORLD
+author: musaichi
+description: HighAndLow.
+commands:
+ high:
+  description: "Highにかけます"
+  usage: "/high 金額"
+  permission:
+ low:
+  description: "lowにかけます"
+  usage: "/low 金額"
+  permission:
